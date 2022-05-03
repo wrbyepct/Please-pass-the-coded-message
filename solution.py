@@ -130,6 +130,8 @@ def prune_extra_one(examine_list):
 
     # If it reaches this point, it's a special case:
     #    that is, for example, the extra value is 1, but 1, 4, 7 are nowhere to be found!
+    #    there are numbers like 55 or 58
+    #    simply remove one number and then check again
     return remove_first_element(examine_list)
 
 
@@ -158,25 +160,3 @@ print_result(solution(mock_list_13))
 print_result(solution(mock_list_14))
 print_result(solution(mock_list_15))
 print_result(solution(mock_list_16))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
