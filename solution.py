@@ -129,7 +129,7 @@ def prune_extra_one(examine_list):
             return get_pruned_examine_list(examine_list)
 
     # If it reaches this point, it's a special case:
-    #    that is, for example, the extra value is 2, but 1, 4, 7 are nowhere to be found!
+    #    that is, for example, the extra value is 1, but 1, 4, 7 are nowhere to be found!
     return remove_first_element(examine_list)
 
 
