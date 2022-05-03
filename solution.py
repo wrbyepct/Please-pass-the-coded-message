@@ -1,5 +1,4 @@
-import itertools
-from itertools import permutations
+
 # mock_list = [0]
 # mock_list_2 = [3, 3, 3, 3]
 # mock_list_3 = [2, 9, 9, 9, 9, 9, 1, 1]
