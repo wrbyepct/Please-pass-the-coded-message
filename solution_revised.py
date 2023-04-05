@@ -193,9 +193,11 @@ def solution(given_list):
             non_three_list.append(n)
         else:
             three_list.append(n)
+            
+            
     # If the size of non_3_list > 2
-    # It only makes sense if the remaining none_3_list will not be empty
-    # Which means there are at least 3 elements in the list 
+    # After removal, there will still be elements in non_3_list
+    # So we have to combine them to 3_list to caculate the final result
     if len(non_three_list) > 2:
         non_three_list.sort(reverse=True)
         if remainder == 1:
